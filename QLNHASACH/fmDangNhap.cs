@@ -35,7 +35,7 @@ namespace QLNHASACH
                 frmMain f = (frmMain)this.MdiParent;
                 f.Text = "Quản lí Nhà Sách - Chào" + r[0]["TenNV"].ToString();
                 f.maNV = r[0]["MaNV"].ToString();
-                f.EnableControl((int)r[0]["MaLTK"]);
+                f.enableControl((int)r[0]["MaLTK"]);
 
                 this.Close();
             }
