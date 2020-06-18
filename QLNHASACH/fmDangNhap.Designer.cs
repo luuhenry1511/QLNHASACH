@@ -112,6 +112,7 @@
             this.Name = "fmDangNhap";
             this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Enter += new System.EventHandler(this.fmDangNhap_Enter);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fmDangNhap_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();

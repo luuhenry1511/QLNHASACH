@@ -57,8 +57,13 @@ namespace QLNHASACH
         {
             if (e.KeyChar == (int)Keys.Enter)
             {
-                btnDangNhap_Click(sender, e)
+                btnDangNhap_Click(sender, e);
             }
+        }
+
+        private void fmDangNhap_Enter(object sender, EventArgs e)
+        {
+            btnDangNhap_Click(sender, e);
         }
     }
 }
