@@ -9,11 +9,18 @@ using System.Windows.Forms;
 
 namespace QLNHASACH
 {
-    public partial class Form1 : DevExpress.XtraEditors.XtraForm
+    public partial class fmDangNhap : DevExpress.XtraEditors.XtraForm
     {
-        public Form1()
+        public fmDangNhap()
         {
             InitializeComponent();
+        }
+        
+        
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

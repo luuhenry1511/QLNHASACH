@@ -21,7 +21,7 @@ namespace QLNHASACH
 
         private void fmDoiMatKhau_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void bntCancel_Click(object sender, EventArgs e)

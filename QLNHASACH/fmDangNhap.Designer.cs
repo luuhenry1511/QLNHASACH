@@ -1,6 +1,6 @@
 ﻿namespace QLNHASACH
 {
-    partial class Form1
+    partial class fmDangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmDangNhap));
             this.tendangnhap = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -62,7 +62,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(169, 43);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(133, 21);
             this.textBox1.TabIndex = 1;
@@ -70,7 +70,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(169, 80);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(133, 21);
             this.textBox2.TabIndex = 1;
@@ -79,7 +79,7 @@
             // 
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
             this.simpleButton1.Location = new System.Drawing.Point(81, 132);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(2);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(98, 38);
             this.simpleButton1.TabIndex = 2;
@@ -89,13 +89,13 @@
             // 
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
             this.simpleButton2.Location = new System.Drawing.Point(198, 132);
-            this.simpleButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.simpleButton2.Margin = new System.Windows.Forms.Padding(2);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(87, 38);
             this.simpleButton2.TabIndex = 2;
             this.simpleButton2.Text = "Thoát";
             // 
-            // frmDangNhap
+            // fmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +106,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tendangnhap);
-            this.Name = "frmDangNhap";
+            this.Name = "fmDangNhap";
             this.Text = "Đăng nhập";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
