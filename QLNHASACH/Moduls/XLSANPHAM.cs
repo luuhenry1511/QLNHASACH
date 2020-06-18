@@ -8,7 +8,10 @@ namespace QLNHASACH.Moduls
 {
     class XLSANPHAM : XLBANG
     {
+        private string pQuery1;
+
         public XLSANPHAM() : base("SANPHAM") {}
         public XLSANPHAM(string pQuery): base("SANPHAM", pQuery) { }
+
     }
 }
