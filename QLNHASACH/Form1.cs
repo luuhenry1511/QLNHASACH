@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace QLNHASACH
 {
-    public partial class frmDangNhap : DevExpress.XtraEditors.XtraForm
+    public partial class Form1 : DevExpress.XtraEditors.XtraForm
     {
-        public frmDangNhap()
+        public Form1()
         {
             InitializeComponent();
         }

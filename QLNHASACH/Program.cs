@@ -20,7 +20,7 @@ namespace QLNHASACH
             Application.SetCompatibleTextRenderingDefault(false);
 
             BonusSkins.Register();
-            Application.Run(new frmDangNhap());
+            Application.Run(new Form1());
         }
     }
 }
