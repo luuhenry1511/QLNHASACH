@@ -33,7 +33,7 @@ namespace QLNHASACH
             if (r.Count() > 0)
             {
                 frmMain f = (frmMain)this.MdiParent;
-                f.Text = "Quản lí Nhà Sách - Chào" + r[0]["TenNV"].ToString();
+                f.Text = "Quản lí Nhà Sách - Chào " + r[0]["TenNV"].ToString();
                 f.maNV = r[0]["MaNV"].ToString();
                 f.enableControl((int)r[0]["MaLTK"]);
 
@@ -63,7 +63,7 @@ namespace QLNHASACH
 
         private void fmDangNhap_Enter(object sender, EventArgs e)
         {
-            btnDangNhap_Click(sender, e);
+           // btnDangNhap_Click(sender, e);
         }
     }
 }
